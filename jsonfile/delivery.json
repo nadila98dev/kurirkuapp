@@ -1,0 +1,46 @@
+{
+    "delivery": {
+      "startTime": "2023-10-02T08:00:00",
+      "finishTime": "2023-10-02T12:00:00",
+      "plannedStartTime": "2023-10-02T12:00:00",
+      "deliveryNumber": "A91JK057",
+      "stops": [
+        {
+          "number": 174859,
+          "name": "stop_1",
+          "address": "Los Angeles",
+          "stopIndex": 1,
+          "stopStartTime": "2023-10-02T08:00:00",
+          "stopEndTime": "2023-10-02T08:00:00",
+          "unloadingTime": 10
+        }
+      ]
+    },
+    "matrix": {
+      "base-stop-1": {
+        "length": 50000,
+        "duration": 30
+      },
+      "base-stop_2": {
+        "length": 55000,
+        "duration": 20
+      },
+      "stop_1-base": {
+        "length": 40000,
+        "duration": 25
+      },
+      "stop_2-base": {
+        "length": 53000,
+        "duration": 18
+      },
+      "stop_1-stop_2": {
+        "length": 20000,
+        "duration": 10
+      },
+      "stop_2-stop_1": {
+        "length": 20000,
+        "duration": 25
+      }
+    }
+  }
+  
